@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    columns: 4 250px;
+    padding: 30px;
+    column-gap: 30px;
+    column-rule: 1px solid #000;
+}
+
+.text p {
+    break-inside: avoid;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 36px;
+    column-span: all;
+    background-color: green;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+span {
+    color: pink;
+    font-size: 21px;
+    font-weight: 600;
+    column-span: all;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  .wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+  }
+  .btn-block {
+      padding: 10px;
+      background-color: grey;
+      margin-top: 10px;
+  }
+  button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    transition: 0.3s all;
+  }
+  
+  .blue {
+      background-color: blue;
+  }
+  
+  .red {
+      background-color: red;
+  }
